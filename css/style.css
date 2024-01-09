@@ -244,8 +244,8 @@
 }
 .fifty_percent_discount{
     position: absolute;
-    right: 500px;
-    top: 420%;
+    right: 500px !important;
+    top: 3850px !important;
 }
 
 /* all products section */
