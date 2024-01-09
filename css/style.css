@@ -71,7 +71,7 @@
     background-image:linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.2)), url(../images/Vectorrr.png);
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 12px;
+    border-radius: 15px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -90,5 +90,22 @@
 .party_description{
     font-size: 18px;
     color: #ffffff;
-    padding-top: 20px;
+    padding-top: 30px;
+}
+
+.join_btn{
+    padding: 10px 15px;
+    margin-top: 40px;
+    font-size: 20px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.join_btn:hover{
+    color: #ffffff;
+    background-color: #C3852F;
 }
