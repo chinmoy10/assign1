@@ -9,12 +9,12 @@
 .new_year_banner {
     height: 600px;
     width: 1320px;
-    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../images/Banner_Image.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../images/Banner_Image.png);
     background-repeat: no-repeat;
     background-position: center;
     margin: 40px auto;
     border-radius: 20px;
-    
+
 }
 
 .new_year_banner_contents {
@@ -36,64 +36,64 @@
 
 /* discount section */
 
-.new_year_discount{
+.new_year_discount {
     margin: 100px auto;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.discount_offer{
+.discount_offer {
     color: #ff0000;
     font-size: 88px;
 }
 
-.better_deals{
+.better_deals {
     margin: 48px 0px;
 }
 
-.holiday_deals{
+.holiday_deals {
     font-size: 24px;
     font-weight: 500;
     color: #ff0000;
 }
 
-.catagories{
+.catagories {
     font-size: 48px;
 }
 
 /* Midnight_party section */
 
-.midnight_party{
+.midnight_party {
     margin: 120px auto;
     height: 600px;
     width: 1320px;
-    background-image:linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.2)), url(../images/Vectorrr.png);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url(../images/Vectorrr.png);
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 15px;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.party_banner{
+.party_banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 80px 126px;
 }
 
-.party_banner_headline{
+.party_banner_headline {
     font-size: 64px;
     color: #ffffff;
 }
 
-.party_description{
+.party_description {
     font-size: 18px;
     color: #ffffff;
     padding-top: 30px;
     width: 700px;
 }
 
-.join_btn{
+.join_btn {
     padding: 10px 15px;
     margin-top: 40px;
     font-size: 20px;
@@ -105,7 +105,7 @@
     text-transform: uppercase;
 }
 
-.join_btn:hover{
+.join_btn:hover {
     color: #ffffff;
     background-color: #C3852F;
 }
@@ -113,39 +113,121 @@
 
 /* all products section */
 
-.party_products{
+.party_products {
     margin: 120px auto;
     text-align: center;
     width: 1320px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.best_gifts{
+.best_gifts {
     text-align: left;
     font-size: 24px;
     color: #ff0000;
 }
 
-.products_title{
+.products_title {
     text-align: left;
     font-size: 48px;
     margin: 20px 0px;
 }
 
-.products_description{
+.products_description {
     text-align: left;
     font-size: 20px;
     margin-bottom: 20px;
     width: 890px;
 }
 
-.products img{
+.products img {
     width: 435px;
     height: auto;
     padding: 20px;
 }
 
-.products img:hover{
+.products img:hover {
     box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.533);
-    border-radius: 10px;
+    border-radius: 20px;
+}
+
+/* subcribe section */
+
+.subcribe {
+    margin: 120px auto;
+    text-align: center;
+    background-color: #ff00000d;
+    width: 1320px;
+    padding: 80px 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.subcribe_title {
+    font-size: 48px;
+    padding: 20px 0px;
+}
+
+.subcribe_description {
+    font-size: 20px;
+    color: #07021199;
+    padding-bottom: 20px;
+}
+
+#username {
+    width: 400px;
+    padding: 25px;
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #07021199;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border: none;
+}
+
+
+.subscribe_btn {
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #ff0000;
+    cursor: pointer;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 24px;
+    border: none;
+}
+
+
+/* footer section */
+
+footer{
+    background-color: #070211;
+}
+
+.footer_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 160px 50px;
+}
+
+hr{
+    color: #ffffff;
+    width: 1320px;
+    margin: 0px auto;
+}
+
+.address, 
+.number, 
+.website{
+    color: #ffffff;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.party_number, .party_website{
+    display: flex;
+    padding-bottom: 8px;
+}
+
+.horizontal_line{
+    color: #ffffff;
 }
