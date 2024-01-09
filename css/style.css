@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* banner style */
+
+.new_year_banner {
+    height: 600px;
+    width: 1320px;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(../images/Banner_Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px auto;
+    border-radius: 20px;
+    
+}
+
+.new_year_banner_contents {
+    text-align: center;
+    color: #ffffff;
+    padding: 190px 345px;
+}
+
+.new_year {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.new_year_celebration {
+    font-size: 70px;
+    line-height: 86px;
+}
