@@ -110,6 +110,143 @@
     background-color: #C3852F;
 }
 
+/* palce, date, time */
+
+.party_date_time{
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 420px;
+    margin: 120px auto;
+    border-radius: 10px;
+    padding: 100px 0px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.party_date_time p{
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.party_date_time p span{
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.party_place_time_btn{
+    text-align: center;
+}
+
+.date_time_btn {
+    padding: 10px 15px;
+    margin-top: 40px;
+    font-size: 20px;
+    color: #ffffff;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    background-color: #ff0000;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+/* new best offer */
+.new_best_offer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1320px;
+    margin: 120px auto;
+}
+
+.new_offer_coming_soon{
+    text-align: left;
+}
+
+.new_offer{
+    font-size: 24px;
+    color: #ff0000;
+}
+
+.coming_soon{
+    font-size: 48px;
+    font-weight: bold;
+    padding: 16px 0px;
+}
+
+.new_offer_description{
+    font-size: 20px;
+    color: #07021199;
+}
+
+.new_year_celebrate{
+    text-align: center;
+    border: 15px solid #ff0000;
+    padding: 50px;
+    border-radius: 50%;
+}
+
+.celebrate_year{
+    text-align: justify;
+    width: 276px;
+}
+
+.year{
+    color: #ff0000;
+    font-size: 48px;
+}
+
+.year_description{
+    font-size: 20px;
+    color: #07021199;
+    padding: 16px 0px 43px;
+}
+
+/* holiday sale section */
+
+.holiday_sale{
+    margin: 120px auto;
+    width: 1320px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.functional{
+    font-size: 24px;
+}
+
+.fifty_percent_sale{
+    font-size: 72px;
+    margin: 16px 0px 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fifty_percent_sale span{
+    color: #ff0000;
+}
+
+.sale-description{
+    font-size: 20px;
+    color: #07021199;
+    margin-bottom: 64px;
+}
+
+.sale_images{
+    background-image: url(../images/Rectangle_2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.girl{
+    margin-bottom: 225px;
+}
+.fifty_percent_discount{
+    position: absolute;
+    right: 500px;
+    top: 420%;
+}
 
 /* all products section */
 
@@ -159,6 +296,7 @@
     width: 1320px;
     padding: 80px 0px;
     font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
 }
 
 .subcribe_title {
@@ -206,12 +344,12 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 120px 160px 50px;
+    padding: 120px 170px 50px;
 }
 
 hr{
     color: #ffffff;
-    width: 1320px;
+    width: 1400px;
     margin: 0px auto;
 }
 
@@ -228,6 +366,24 @@ hr{
     padding-bottom: 8px;
 }
 
-.horizontal_line{
+.footer_items{
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.footer_items li{
+    display: inline;
+    padding-right: 20px;
+}
+
+.footer_unsubscribe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 170px 80px;
+}
+
+.footer_unsubscribe p{
     color: #ffffff;
+    font-size: 24px;
 }
